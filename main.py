@@ -67,7 +67,7 @@ class NostaleUser(object):
         else:
             logging.error('Unable to find the game account id (maybe you\'re using a new account)')
 
-    def gen_token(self):
+    def gen_token(self) -> str:
         if not self.token:
             self.__gen_token()
 
