@@ -108,7 +108,7 @@ if __name__ == '__main__':
     else:
         logging.basicConfig(format=fmt, level=logging.INFO)
 
-    # # Log in and generate a token
+    # Log in and generate a token
     user = NostaleUser(args.username, args.password, lang=args.lang, locale=args.locale,
                        platform_game_id=args.platform_game_id, installation_id=args.installation_id)
 
